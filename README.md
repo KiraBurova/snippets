@@ -38,7 +38,6 @@
     @content
   &:-ms-input-placeholder
     @content
-use it like
 
 input
   +placeholder
