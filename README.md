@@ -26,3 +26,21 @@
   </ul>
 </nav>
 ```
+# SASS mixin for placeholders
+
+```css
+=placeholder
+  &::-webkit-input-placeholder
+    @content
+  &:-moz-placeholder
+    @content
+  &::-moz-placeholder
+    @content
+  &:-ms-input-placeholder
+    @content
+use it like
+
+input
+  +placeholder
+    color: red
+```    
